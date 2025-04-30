@@ -1,0 +1,26 @@
+altron-extremist/
+├── .env                 # Environment variables (API keys, endpoints) - DO NOT COMMIT ACTUAL KEYS
+├── .env.example         # Example environment file structure
+├── .gitignore           # Git ignore file
+├── README.md            # Project description, setup, usage
+├── requirements.txt     # Python dependencies
+├── src/
+│   ├── __init__.py
+│   ├── agent/
+│   │   ├── __init__.py
+│   │   ├── altron_agent.py    # Defines the Altron agent, system prompt
+│   │   └── kernel_config.py   # Kernel setup, service configuration
+│   ├── plugins/
+│   │   ├── __init__.py
+│   │   ├── core_functions.py  # Basic functions like web search (placeholder)
+│   │   └── external_systems.py # DCP Protocol, Drone Control placeholders
+│   └── main.py              # Main application entry point, interaction loop
+└── notebooks/             # Optional: Keep original notebooks for reference
+    ├── 05-semantic-kernel-chromadb.ipynb
+    ├── 06-system-message-framework.ipynb
+    ├── 07-azure-openai.ipynb
+    ├── 08-autogen.ipynb
+    ├── 08-python_multi_aiagent_bookinghotel.ipynb
+    ├── 08-semantic-kernel.ipynb
+    ├── 10-semantic-kernel.ipynb
+    └── Altron Extremist Prameters.txt # Original parameters file
