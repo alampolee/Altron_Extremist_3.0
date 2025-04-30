@@ -5,7 +5,7 @@ from openai import AzureOpenAI
 
 endpoint = os.getenv("ENDPOINT_URL", "")  
 deployment = os.getenv("DEPLOYMENT_NAME", "Altron_gpt-35-turbo")  
-subscription_key = os.getenv("2HEAyQBUKKK4jIJ9BrNFGaVF8BQayZPnzd6qG0Iuqzk9lSuQBZipJQQJ99BDACL93NaXJ3w3AAABACOGEf1Y")  
+subscription_key = os.getenv("")  
 
 # Initialize Azure OpenAI Service client with key-based authentication    
 client = AzureOpenAI(  
